@@ -1,0 +1,40 @@
+{
+	"name"        : "xicrow/php-sql-formatter",
+	"description" : "SQL formatter for PHP",
+	"type"        : "library",
+	"keywords"    : [
+		"sql",
+		"formatter",
+		"tools",
+		"php"
+	],
+	"license"     : "MIT",
+	"authors"     : [
+		{
+			"name"    : "Jan Ebsen",
+			"email"   : "xicrow@gmail.com",
+			"homepage": "http://jan-ebsen.dk",
+			"role"    : "developer"
+		}
+	],
+	"support"     : {
+		"issues": "https://github.com/xicrow/php-sql-formatter/issues"
+	},
+	"require"     : {
+		"php"     : "^7.1",
+		"ext-json": "*"
+	},
+	"require-dev" : {
+		"phpunit/phpunit"    : "^8.3"
+	},
+	"autoload"    : {
+		"psr-4": {
+			"Xicrow\\PhpSqlFormatter\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Xicrow\\PhpSqlFormatter\\Test\\": "tests"
+		}
+	}
+}

@@ -1,0 +1,5 @@
+.idea
+code-coverage
+demo/demo.sql
+vendor
+composer.lock
